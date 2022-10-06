@@ -14,7 +14,7 @@ String func(int a,b,c){
        return answer = 'first number';
     }if(b<a && b<c){ 
        return answer = 'second number';
-    }if(c<a && c<b){
+    }else{
         return answer = 'third number';
     }
      return answer = '';
