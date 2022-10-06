@@ -7,14 +7,18 @@ Args:
 Returns:
     int: return answer. 
 */
-String func(int a,b){
-    String answer = '';
-    if(a == b){
-        return answer = 'zero';
-    }else{
-        return answer = 'one';
+int func(int a,b){
+    
+    if(a>b){
+        return a;
+    }if(b>a){
+        return b;
     }
+    else{
+        return 0;
+    }
+
 }
 void main() {
-    print (func(5,5));
+    print (func(6,7));
 }
