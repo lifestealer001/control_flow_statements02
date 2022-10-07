@@ -8,16 +8,16 @@ Args:
 Returns:
     int: return answer.
 */
-String func(int a,b,c){
-    String answer ='';
+int func(int a,b,c){
+    
     if(a>b && a>c){
-       return answer = 'First number';
+       return a;
     }if(b>a && b>c){ 
-       return answer = 'Second number';
+       return b;
     }else{
-        return answer = 'Third number';
+        return c;
     }
-     return answer = '';
+    
 }
 void main() {
     print(func(100,101,102));

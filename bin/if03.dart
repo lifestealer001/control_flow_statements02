@@ -7,16 +7,16 @@ Args:
     c: Third number.
 Returns:
     int: return answer. */
-String func(int a,b,c){
-    String answer ='';
+int func(int a,b,c){
+    
     if(a<b && a>c || a<c && a>b){
-       return answer = 'First number';
+       return a;
     }if(b<a && b>c || b>a && b<c){ 
-       return answer = 'Second number';
+       return b;
     }if(c<a && c>b || c>a && c<b){
-        return answer = 'Third number';
+        return c;
     }
-     return answer = '';
+    return 0;
 }
 void main() {
     print(func(12,11,13));
