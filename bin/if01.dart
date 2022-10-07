@@ -17,8 +17,8 @@ String func(int a,b,c){
     }else{
         return answer = 'third number';
     }
-     
+     return answer = '';
 }
 void main() {
-    print(func(10,22,9));
+    print(func(100,101,102));
 }
