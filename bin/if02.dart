@@ -20,5 +20,5 @@ String func(int a,b,c){
     
 }
 void main() {
-    print(func(10,22,9));
+    print(func(1,2,9));
 }
