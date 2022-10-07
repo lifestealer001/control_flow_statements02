@@ -11,11 +11,11 @@ Returns:
 String func(int a,b,c){
     String answer ='';
     if(a>b && a>c){
-       return answer = 'first number';
+       return answer = 'First number';
     }if(b>a && b>c){ 
-       return answer = 'second number';
+       return answer = 'Second number';
     }else{
-        return answer = 'third number';
+        return answer = 'Third number';
     }
      return answer = '';
 }
