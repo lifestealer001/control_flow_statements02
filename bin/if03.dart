@@ -13,7 +13,7 @@ String func(int a,b,c){
        return answer = 'First number';
     }if(b<a && b>c || b>a && b<c){ 
        return answer = 'Second number';
-    }if(c<a && c>b || c>a || c<b){
+    }if(c<a && c>b || c>a && c<b){
         return answer = 'Third number';
     }
      return answer = '';
